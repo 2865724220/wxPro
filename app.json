@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/test/test",
+    "pages/question01/question01",
+    "pages/question02/question02",
+    "pages/question03/question03",
+    "pages/question04/question04",
+    "pages/question05/question05",
+    "pages/question06/question06",
+    "pages/question07/question07",
+    "pages/question08/question08",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "安安智能保顾",
+    "navigationBarTextStyle":"black"
+  }
+}

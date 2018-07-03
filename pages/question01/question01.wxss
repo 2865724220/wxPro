@@ -1,0 +1,22 @@
+/* pages/question01/question01.wxss */
+.sex-img-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:20px;
+  justify-content: space-around;
+}
+.sex-img-i {
+  display: block;
+  width:86px;
+}
+.sex-img-t {
+  display:block;
+  font-size:16px;
+  color:#fff;
+  text-align: center;
+  padding:10px 0 0;
+}
+.per01 {
+  width: 14.5%;
+}

@@ -1,0 +1,48 @@
+<view class='kyc-bg'>
+  <view class='progress'>
+    <view class='progress-i per04'></view>
+  </view>
+  <view class='pt' bindtap='goQu03'>
+    <image class='prev-arr' src='../../images/icon-back.png' mode='widthFix'></image>
+    <text class='prev-t'>上一题</text>
+  </view>
+  <view class='kyc-anan-wrap'>
+    <image class='kyc-anan' src='../../images/anan.png'></image>
+  </view>
+  <view class='qu-title'>
+    <view class='qu-title-list'>
+      <text class='qu-title-number'>4</text>
+      <text>/8</text>
+    </view>
+    <text class='qu-title-con'>安安猜你的家庭成员的年龄是</text>
+  </view>
+  <view class='fAge clearfix'>
+    <view class='ageItem'>
+      <text class='tSpan'>配偶</text>
+      <input class='ageInput' value='30' type='number'></input>
+      <text class='ageS'>岁</text>
+    </view>
+    <view class='ageItem'>
+      <text class='tSpan'>爸爸</text>
+      <input class='ageInput' value='52' type='number'></input>
+      <text class='ageS'>岁</text>
+    </view>
+    <view class='ageItem'>
+      <text class='tSpan'>妈妈</text>
+      <input class='ageInput' value='52' confirm-type=''></input>
+      <text class='ageS'>岁</text>
+    </view>
+    <view class='ageItem'>
+      <text class='tSpan'>儿子</text>
+      <input class='ageInput' value='3'></input>
+      <text class='ageS'>岁</text>
+    </view>
+  </view>
+  <view class='bt-next' bindtap='goQu05'>
+    <text class='next-a'>下一题</text>
+    <image class='next-arr' src='../../images/icon-enter.png' mode='widthFix'></image>
+  </view>
+  <view>
+    <text class='bt-grey'>安安为您提供专业服务，从了解您的家庭风险开始～</text>
+  </view>
+</view>

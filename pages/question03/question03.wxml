@@ -1,0 +1,30 @@
+<view class='kyc-bg'>
+  <view class='progress'>
+    <view class='progress-i per03'></view>
+  </view>
+  <view class='pt' bindtap='goQu02'>
+    <image class='prev-arr' src='../../images/icon-back.png' mode='widthFix'></image>
+    <text class='prev-t'>上一题</text>
+  </view>
+  <view class='kyc-anan-wrap'>
+    <image class='kyc-anan' src='../../images/anan.png'></image>
+  </view>
+  <view class='qu-title'>
+    <view class='qu-title-list'>
+      <text class='qu-title-number'>3</text>
+      <text>/8</text>
+    </view>
+    <text class='qu-title-con'>你的家庭成员有哪些？</text>
+  </view>
+  <view class='familyM clearfix'>
+    <button  class='fMember active'>本人</button>
+    <button wx:for="{{member}}" wx:key="unique"  class="{{isActive[index]?'fMember active':'fMember'}}"  bindtap='memberS' data-index='{{index}}'>{{item}}</button>
+  </view>
+  <view class='bt-next' bindtap='goQu04'>
+    <text class='next-a'>下一题</text>
+    <image class='next-arr' src='../../images/icon-enter.png' mode='widthFix'></image>
+  </view>
+  <view>
+    <text class='bt-grey'>安安为您提供专业服务，从了解您的家庭风险开始～</text>
+  </view>
+</view>

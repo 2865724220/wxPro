@@ -1,0 +1,4 @@
+/* pages/question06/question06.wxss */
+.per06 {
+  width:78%;
+}

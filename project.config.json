@@ -1,0 +1,83 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.4",
+	"appid": "wx1171029ed6fc18af",
+	"projectname": "test",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/test",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "question01",
+					"pathName": "pages/question01/question01",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "question02",
+					"pathName": "pages/question02/question02",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "question07",
+					"pathName": "pages/question07/question07",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "question03",
+					"pathName": "pages/question03/question03",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "question04",
+					"pathName": "pages/question04/question04",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "question05",
+					"pathName": "pages/question05/question05",
+					"query": ""
+				}
+			]
+		}
+	}
+}

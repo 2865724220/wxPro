@@ -1,0 +1,25 @@
+/* pages/question03/question03.wxss */
+.per03 {
+  width:39%;
+}
+.familyM{
+  padding:0 20px;
+}
+.fMember{
+  display: block;
+  width: 46%;
+  height: 48px;
+  color: #fff;
+  float: left;
+  background: #757a97;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 48px;
+}
+.familyM .fMember:nth-child(2n) {
+  float: right;
+}
+.fMember.active{
+  background: #ff9921;
+}

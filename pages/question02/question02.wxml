@@ -1,0 +1,26 @@
+<view class='kyc-bg'>
+  <view class='progress'>
+    <view class='progress-i per02'></view>
+  </view>
+  <view class='pt' bindtap='goQu01'>
+    <image class='prev-arr' src='../../images/icon-back.png' mode='widthFix'></image>
+    <text class='prev-t'>上一题</text>
+  </view>
+  <view class='kyc-anan-wrap'>
+    <image class='kyc-anan' src='../../images/anan.png'></image>
+  </view>
+  <view class='qu-title'>
+    <view class='qu-title-list'>
+      <text class='qu-title-number'>2</text>
+      <text>/8</text>
+    </view>
+    <text class='qu-title-con'>你是年龄是？</text>
+  </view>
+  <view class='bt-next'  bindtap='goQu03'>
+    <text class='next-a'>下一题</text>
+    <image class='next-arr' src='../../images/icon-enter.png' mode='widthFix'></image>
+  </view>
+  <view>
+    <text class='bt-grey'>安安为您提供专业服务，从了解您的家庭风险开始～</text>
+  </view>
+</view>
