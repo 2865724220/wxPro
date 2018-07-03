@@ -18,7 +18,11 @@
   </view>
   <view class='familyM clearfix'>
     <button  class='fMember active'>本人</button>
-    <button wx:for="{{member}}" wx:key="unique"  class="{{isActive[index]?'fMember active':'fMember'}}"  bindtap='memberS' data-index='{{index}}'>{{item}}</button>
+    <button  class='fMember '>配偶</button>
+    <button  class='fMember '>爸爸</button>
+    <button  class='fMember '>妈妈</button>
+    <button  class='fMember '>儿子</button>
+
   </view>
   <view class='bt-next' bindtap='goQu04'>
     <text class='next-a'>下一题</text>

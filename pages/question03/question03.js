@@ -5,8 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    member: ['配偶', '爸爸', '妈妈', '儿子', '女儿', '小儿子', '小女儿'],
-    isActive:{},
+   
   },
   goQu02:function(){
     wx.redirectTo({
@@ -18,16 +17,7 @@ Page({
       url: '../question04/question04',
     })
   },
-  memberS:function(event){
-    var mIndex = event.currentTarget.dataset['index'];
-    this.setData({
-        isActive:{
-          ...this.data.isActive,
-          [mIndex]: !this.data.isActive[mIndex]
-
-        }
-    })
-  },
+  
 
   /**
    * 生命周期函数--监听页面加载
